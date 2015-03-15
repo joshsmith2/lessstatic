@@ -1,3 +1,16 @@
+h1{
+    z-index: 100;
+    word-wrap: break-word;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9em;
+    width: 452px;
+    position: absolute;
+    left: 50%;
+    margin-left: -226px;
+
+}
+
 #circle{
     border-radius: 50%;
     background-color: black;
@@ -6,14 +19,25 @@
 
 }
 
-#container{
+#circle-container{
   display: inline-block; /* shrink to fit */
   width: 100%;           /* whatever width you like */
   position: relative;
 }
 
-#container::after {
+#circle-container::after {
   padding-top: 100%; /* percentage of containing block _width_ */
   display: block;
   content: '';
 }
+
+#octocat{
+    z-index: 200;
+    height: 120px;
+    width: 120px;
+    margin-left: -60px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+
