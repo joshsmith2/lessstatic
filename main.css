@@ -1,14 +1,24 @@
+body{
+    #background-color: #222;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1{
     z-index: 100;
     word-wrap: break-word;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
     font-size: 9em;
     width: 452px;
+    margin: 0 0 0 -113px;
+
+}
+
+#content{
+    width: 224px;
+    margin-left: -112px;
     position: absolute;
     left: 50%;
-    margin-left: -226px;
-
+    top: 15%;
 }
 
 #circle{
@@ -20,9 +30,11 @@ h1{
 }
 
 #circle-container{
-  display: inline-block; /* shrink to fit */
-  width: 100%;           /* whatever width you like */
-  position: relative;
+  width: 94%;
+  position: absolute;
+  margin: -30% 0 0 -47%;
+  left: 50%;
+  top: 50%;
 }
 
 #circle-container::after {
@@ -35,9 +47,6 @@ h1{
     z-index: 200;
     height: 120px;
     width: 120px;
-    margin-left: -60px;
-    position: absolute;
-    left: 50%;
-    top: 70%;
+    margin-left: 52px;
 }
 
