@@ -1,7 +1,6 @@
 body{
     #background-color: #222;
     color: white;
-    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
@@ -10,7 +9,8 @@ h1{
     font-size: 9em;
     width: 452px;
     margin: 0 0 0 -113px;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 #content{
@@ -25,20 +25,22 @@ h1{
     border-radius: 50%;
     background-color: black;
     position: absolute;
-    top: 0; bottom: 0; right: 0; left: 0;  /* follow the parent's edges */
-
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 #circle-container{
   width: 94%;
   position: absolute;
-  margin: -30% 0 0 -47%;
+  margin: -35% 0 0 -47%;
   left: 50%;
   top: 50%;
 }
 
 #circle-container::after {
-  padding-top: 100%; /* percentage of containing block _width_ */
+  padding-top: 100%;
   display: block;
   content: '';
 }
@@ -50,3 +52,7 @@ h1{
     margin-left: 52px;
 }
 
+#strapline{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200
+}
